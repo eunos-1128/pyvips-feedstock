@@ -11,7 +11,7 @@
 # at least gdk-pixbuf.
 
 {% set name = "pyvips" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ package:
 
 source:
   url: https://github.com/libvips/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 252819173f4d3737c516c5b81aa3c82a92a21f666633705ecf239a0b33e95899
+  sha256: 13734bd359d03a7116a0b8452b2477bfbfdb7fb7e1dce838d0a3df46637c629c
 
 build:
-  number: 3
+  number: 0
   script:
     # Ensure we can find the vips package
     - pkg-config --exists --print-errors vips
