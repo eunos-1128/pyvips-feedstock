@@ -11,7 +11,7 @@
 # at least gdk-pixbuf.
 
 {% set name = "pyvips" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -19,7 +19,7 @@ package:
 
 source:
   url: https://github.com/libvips/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 13734bd359d03a7116a0b8452b2477bfbfdb7fb7e1dce838d0a3df46637c629c
+  sha256: 1ab3c901fb9ae2221eef4b2258cddbaf52af30fc6d6023d610ebbe7cd94d3aff
 
 build:
   number: 0
