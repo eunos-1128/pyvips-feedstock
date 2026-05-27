@@ -19,7 +19,7 @@ source:
   sha256: 1ab3c901fb9ae2221eef4b2258cddbaf52af30fc6d6023d610ebbe7cd94d3aff
 
 build:
-  number: 0
+  number: 1
   script:
     # Ensure we can find the vips package
     - pkg-config --exists --print-errors vips
