@@ -41,8 +41,12 @@ requirements:
     - setuptools >=61
     - cffi >=1.0
     - pkgconfig >=1.5
+    # Specify lgpl so that there isn't any concern about the license
+    # which this software was built with.
+    - libarchive * lgpl_*                 # [win]
     - libvips
     - glib
+
     # Needed for devel files (e.g. pkg-config):
     - expat
     - freetype                            # [win]
