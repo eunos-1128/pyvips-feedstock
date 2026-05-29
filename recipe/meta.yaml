@@ -49,6 +49,7 @@ requirements:
     - glib
     # Needed for devel files (e.g. pkg-config):
     - expat
+    - freetype                            # [win]
     - xorg-xorgproto                      # [linux]
   run:
     - python
