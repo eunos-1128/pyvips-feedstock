@@ -67,7 +67,7 @@ test:
 about:
   home: https://github.com/libvips/pyvips
   dev_url: https://github.com/libvips/pyvips
-  doc_url: https://libvips.github.io/pyvips/
+  doc_url: https://libvips.github.io/pyvips
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
