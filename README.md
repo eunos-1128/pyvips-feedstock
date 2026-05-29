@@ -9,7 +9,9 @@ Package license: MIT
 
 Summary: Binding for libvips
 
-Documentation: https://libvips.github.io/pyvips/
+Development: https://github.com/libvips/pyvips
+
+Documentation: https://libvips.github.io/pyvips
 
 Current build status
 ====================
