@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 %PYTHON% %RECIPE_DIR%\make_lcms2_pc.py
 
-:: dir %LIBRARY_LIB%\*.lib
+dir %LIBRARY_LIB%\*.lib
 :: if exist %LIBRARY_LIB%\libarchive.lib copy %LIBRARY_LIB%\libarchive.lib %LIBRARY_LIB%\archive.lib
 :: if exist %LIBRARY_LIB%\zlib.lib copy %LIBRARY_LIB%\zlib.lib %LIBRARY_LIB%\z.lib
 :: if exist %LIBRARY_LIB%\libbz2.lib copy %LIBRARY_LIB%\libbz2.lib %LIBRARY_LIB%\bz2.lib
