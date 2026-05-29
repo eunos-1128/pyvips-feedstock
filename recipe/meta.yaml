@@ -50,6 +50,7 @@ requirements:
     # Needed for devel files (e.g. pkg-config):
     - expat
     - freetype                            # [win]
+    - lcms2                               # [win]
     - libxml2-devel                       # [win]
     - xorg-xorgproto                      # [linux]
   run:
