@@ -39,8 +39,8 @@ requirements:
     - python
     - pip
     - setuptools >=61
-    - pkgconfig >=1.5
     - cffi >=1.0
+    - curl                                # [win]
     # Needed for devel files (e.g. pkg-config):
     - expat
     - freetype                            # [win]
@@ -51,6 +51,7 @@ requirements:
     - liblzma-devel                       # [win]
     - libvips
     - libxml2-devel                       # [win]
+    - pkgconfig >=1.5
     - xorg-xorgproto                      # [linux]
   run:
     - python
