@@ -39,6 +39,7 @@ requirements:
     - python
     - pip
     - setuptools >=61
+    - pkgconfig >=1.5
     - cffi >=1.0
     # Needed for devel files (e.g. pkg-config):
     - expat
