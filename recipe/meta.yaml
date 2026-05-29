@@ -21,6 +21,7 @@ source:
 build:
   number: 1
   script:
+    - {{ PYTHON }} %RECIPE_DIR%\make_lcms2_pc.py  # [win]
     # Ensure we can find the vips package
     - pkg-config --exists --print-errors vips
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
@@ -50,7 +51,6 @@ requirements:
     # Needed for devel files (e.g. pkg-config):
     - expat
     - freetype                            # [win]
-    - lcms2                               # [win]
     - libxml2-devel                       # [win]
     - xorg-xorgproto                      # [linux]
   run:
