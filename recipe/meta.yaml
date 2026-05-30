@@ -44,7 +44,6 @@ requirements:
     - expat
     - freetype
     - glib
-    - liblzma-devel
     - libvips
     - libxml2-devel
     - pkgconfig >=1.5
