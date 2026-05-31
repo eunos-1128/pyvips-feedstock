@@ -26,7 +26,7 @@ build:
     - PKG_CONFIG=pkgconf
   script:
     # Allow pkg-config to find xproto.pc
-    - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$PREFIX/share/pkgconfig"  [linux]
+    - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$PREFIX/share/pkgconfig"  # [linux]
     
     # Ensure we can find the vips package
     - pkgconf --exists --print-errors vips
