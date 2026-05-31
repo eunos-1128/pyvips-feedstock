@@ -27,10 +27,8 @@ build:
   script:
     # Allow pkg-config to find xproto.pc
     - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$PREFIX/share/pkgconfig"  # [linux]
-    
     # Ensure we can find the vips package
     - pkgconf --exists --print-errors vips
-
     - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
   ignore_run_exports:
     # We need to pull in metapackages for these below to get devel files, but
