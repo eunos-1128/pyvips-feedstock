@@ -31,7 +31,7 @@ build:
     # Ensure we can find the vips package
     - pkgconf --exists --print-errors vips
 
-    - ${PYTHON} -m pip install . --no-deps --ignore-installed -vv
+    - {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
   ignore_run_exports:
     # We need to pull in metapackages for these below to get devel files, but
     # don't depend on these libraries directly:
